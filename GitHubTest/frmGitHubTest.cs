@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GitHubTest
 {
-    public partial class Form1 : Form
+    public partial class frmGitHubTest : Form
     {
-        public Form1()
+        public frmGitHubTest()
         {
             InitializeComponent();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
