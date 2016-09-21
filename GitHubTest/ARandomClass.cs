@@ -17,6 +17,7 @@ namespace GitHubTest
         public int GetRandomNumber()
         {
             return r.Next();
+            //add a comment in testbranch
         }
     }
 }
