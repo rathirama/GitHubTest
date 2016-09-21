@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -21,6 +22,12 @@ namespace GitHubTest
         {
             //Lets add some comments...
             Close();
+        }
+
+        private void btnDoSomething_Click(object sender, EventArgs e)
+        {
+            ARandomClass arc = new ARandomClass(DateTime.Now.Second);
+            Debug.WriteLine(arc.GetRandomNumber());
         }
     }
 }
