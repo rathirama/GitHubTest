@@ -19,6 +19,7 @@ namespace GitHubTest
 
         private void btnClose_Click(object sender, EventArgs e)
         {
+            //Lets add some comments...
             Close();
         }
     }
