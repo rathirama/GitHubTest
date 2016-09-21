@@ -11,7 +11,7 @@ namespace GitHubTest
         Random r;
         public ARandomClass(int a)
         {
-            Random r = new Random(a + DateTime.Now.Millisecond);
+            r = new Random(a + DateTime.Now.Millisecond);
         }
 
         public int GetRandomNumber()
