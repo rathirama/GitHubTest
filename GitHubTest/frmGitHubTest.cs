@@ -28,6 +28,7 @@ namespace GitHubTest
         {
             ARandomClass arc = new ARandomClass(DateTime.Now.Second);
             Debug.WriteLine(arc.GetRandomNumber());
+            //adding a comment and trying to check into branch...
         }
     }
 }
